@@ -1,0 +1,23 @@
+SpaceInvaders/code/CMakeFiles/space-invaders-game-assignment.dir/source/SpaceInvaders/Entities/Rocket/Rocket.cpp.o: \
+  /Users/alex/gitarea/playground/space-invaders-game-assignment/SpaceInvaders/code/source/SpaceInvaders/Entities/Rocket/Rocket.cpp \
+  /Users/alex/gitarea/playground/space-invaders-game-assignment/SpaceInvaders/code/source/SpaceInvaders/Entities/Rocket/Rocket.h \
+  /Users/alex/gitarea/playground/space-invaders-game-assignment/SpaceInvaders/code/source/SpaceInvaders/Entities/Rocket/../../Types.h \
+  /Users/alex/gitarea/playground/space-invaders-game-assignment/SpaceInvaders/code/source/SpaceInvaders/Entities/Rocket/../../../Math/Vec2f.h \
+  /Users/alex/gitarea/playground/space-invaders-game-assignment/SpaceInvaders/code/source/SpaceInvaders/Entities/Rocket/../../../Utils/Types.h \
+  /Users/alex/gitarea/playground/emscripten/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/cstddef \
+  /Users/alex/gitarea/playground/emscripten/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__config \
+  /Users/alex/gitarea/playground/emscripten/emsdk/upstream/emscripten/cache/sysroot/include/pthread.h \
+  /Users/alex/gitarea/playground/emscripten/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/version \
+  /Users/alex/gitarea/playground/emscripten/emsdk/upstream/lib/clang/13.0.0/include/stddef.h \
+  /Users/alex/gitarea/playground/emscripten/emsdk/upstream/lib/clang/13.0.0/include/__stddef_max_align_t.h \
+  /Users/alex/gitarea/playground/emscripten/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__nullptr \
+  /Users/alex/gitarea/playground/space-invaders-game-assignment/SpaceInvaders/code/source/SpaceInvaders/Entities/Rocket/../../GameContext.h \
+  /Users/alex/gitarea/playground/space-invaders-game-assignment/SpaceInvaders/code/source/SpaceInvaders/Entities/Rocket/../../../Graphics/SpriteRenderer.h \
+  /Users/alex/gitarea/playground/space-invaders-game-assignment/SpaceInvaders/code/source/SpaceInvaders/Entities/Rocket/../../../Graphics/../Math/Vec2f.h \
+  /Users/alex/gitarea/playground/space-invaders-game-assignment/SpaceInvaders/code/source/SpaceInvaders/Entities/Rocket/../../../Graphics/../Utils/Types.h \
+  /Users/alex/gitarea/playground/space-invaders-game-assignment/SpaceInvaders/code/source/SpaceInvaders/Entities/Rocket/../../../Graphics/TextRenderer.h \
+  /Users/alex/gitarea/playground/space-invaders-game-assignment/SpaceInvaders/code/source/SpaceInvaders/Entities/Rocket/../../../Graphics/../Basic/string.h \
+  /Users/alex/gitarea/playground/space-invaders-game-assignment/SpaceInvaders/code/source/SpaceInvaders/Entities/Rocket/../../../Platform/Display.h \
+  /Users/alex/gitarea/playground/space-invaders-game-assignment/SpaceInvaders/code/source/SpaceInvaders/Entities/Rocket/../../../Platform/../Utils/Types.h \
+  /Users/alex/gitarea/playground/space-invaders-game-assignment/SpaceInvaders/code/source/SpaceInvaders/Entities/Rocket/../../../Platform/Input.h \
+  /Users/alex/gitarea/playground/space-invaders-game-assignment/SpaceInvaders/code/source/SpaceInvaders/Entities/Rocket/../../../Platform/../Math/Vec2f.h

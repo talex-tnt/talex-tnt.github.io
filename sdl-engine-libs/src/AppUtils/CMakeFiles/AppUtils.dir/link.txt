@@ -1,0 +1,2 @@
+/Users/alex/gitarea/playground/emscripten/emsdk/upstream/emscripten/emar qc libAppUtils.a CMakeFiles/AppUtils.dir/source/AppUtils/Clock.cpp.o
+/Users/alex/gitarea/playground/emscripten/emsdk/upstream/emscripten/emranlib libAppUtils.a

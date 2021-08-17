@@ -1,0 +1,1 @@
+ sdl-engine-libs/src/SpaceInvadersEngine/libSpaceInvadersEngine.a sdl-engine-libs/src/GameGraphics/libGameGraphics.a sdl-engine-libs/src/Math/libMath.a sdl-engine-libs/src/SDLSupport/libSDLSupport.a sdl-engine-libs/src/Graphics/libGraphics.a sdl-engine-libs/src/AppUtils/libAppUtils.a 

@@ -1,0 +1,2 @@
+/Users/alex/gitarea/playground/emscripten/emsdk/upstream/emscripten/emar qc libGraphics.a CMakeFiles/Graphics.dir/source/Graphics/Glyphs.cpp.o CMakeFiles/Graphics.dir/source/Graphics/SpriteAtlasConfig.cpp.o
+/Users/alex/gitarea/playground/emscripten/emsdk/upstream/emscripten/emranlib libGraphics.a
