@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/xagon-js/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/xagon-js/static/js/main.a9b3404a.chunk.js",
-    "main.js.map": "/xagon-js/static/js/main.a9b3404a.chunk.js.map",
+    "main.js": "/xagon-js/static/js/main.b89aba4d.chunk.js",
+    "main.js.map": "/xagon-js/static/js/main.b89aba4d.chunk.js.map",
     "runtime-main.js": "/xagon-js/static/js/runtime-main.2d09a582.js",
     "runtime-main.js.map": "/xagon-js/static/js/runtime-main.2d09a582.js.map",
     "static/js/2.9ec0545a.chunk.js": "/xagon-js/static/js/2.9ec0545a.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.2d09a582.js",
     "static/js/2.9ec0545a.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.a9b3404a.chunk.js"
+    "static/js/main.b89aba4d.chunk.js"
   ]
 }
