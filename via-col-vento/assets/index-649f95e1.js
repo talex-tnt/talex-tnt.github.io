@@ -1297,7 +1297,7 @@ Enter`,code:"KC_PENT",shortName:"N.Ent",title:"Numpad Enter"},{name:"Left Shift"
   display: flex;
   align-items: center;
   justify-content: center;
-`,{DEBUG_PROD,MODE,DEV}={BASE_URL:"/via-col-vento",MODE:"production",DEV:!1,PROD:!0,SSR:!1},showDebugPane=MODE==="development"||DEBUG_PROD==="true"||DEV,GlobalContainer=styled(Container)`
+`,{DEBUG_PROD,MODE,DEV}={BASE_URL:"/via-col-vento/",MODE:"production",DEV:!1,PROD:!0,SSR:!1},showDebugPane=MODE==="development"||DEBUG_PROD==="true"||DEV,GlobalContainer=styled(Container)`
   background: var(--bg_outside-accent);
   column-gap: 20px;
 `,UnconnectedGlobalMenu=()=>{const e=useAppSelector(getShowDesignTab),[t]=useLocation(),o=reactExports.useMemo(()=>PANES.filter(n=>n.key!==ErrorsPaneConfig.key).map(n=>n.key==="design"&&!e||n.key==="debug"&&!showDebugPane?null:jsx(Link$1,{to:n.path,children:jsxs(CategoryIconContainer,{$selected:n.path===t,children:[jsx(FontAwesomeIcon,{size:"xl",icon:n.icon}),jsx(CategoryMenuTooltip,{children:n.title})]})},n.key)),[t,e]);return jsx(React.Fragment,{children:jsxs(GlobalContainer,{children:[jsx(ErrorLink,{}),o,jsx(ExternalLinks,{})]})})},overrideParam=new URL(window.location.href).searchParams.get("override_hid_check");overrideParam!==null&&localStorage.setItem("override_hid_check",overrideParam);const overrideHidCheck=localStorage.getItem("override_hid_check")||"false",OVERRIDE_HID_CHECK=!!JSON.parse(overrideHidCheck),ErrorHome=styled.div`
