@@ -1337,7 +1337,9 @@ Enter`,code:"KC_PENT",shortName:"N.Ent",title:"Numpad Enter"},{name:"Left Shift"
   right: 1em;
   display: flex;
   gap: 1em;
-`,ExternalLinks=()=>jsxs(ExternalLinkContainer,{children:[jsx("a",{href:"https://caniusevia.com/",target:"_blank",children:jsxs(CategoryIconContainer,{children:[jsx(VIALogo,{height:"25px",fill:"currentColor"}),jsx(CategoryMenuTooltip,{children:"Firmware + Docs"})]})}),jsx("a",{href:"https://discord.gg/NStTR5YaPB",target:"_blank",children:jsxs(CategoryIconContainer,{children:[jsx(FontAwesomeIcon,{size:"xl",icon:faDiscord}),jsx(CategoryMenuTooltip,{children:"Discord"})]})}),jsx("a",{href:"https://github.com/the-via/app",target:"_blank",children:jsxs(CategoryIconContainer,{children:[jsx(FontAwesomeIcon,{size:"xl",icon:faGithub}),jsx(CategoryMenuTooltip,{children:"Github"})]})})]}),Container=styled.div`
+  color: var(--color_label);
+  align-items: center;
+`,ExternalLinks=()=>jsxs(ExternalLinkContainer,{children:[jsx("span",{children:"Please support the original project:"}),jsx("a",{href:"https://caniusevia.com/",target:"_blank",children:jsxs(CategoryIconContainer,{children:[jsx(VIALogo,{height:"25px",fill:"currentColor"}),jsx(CategoryMenuTooltip,{children:"Firmware + Docs"})]})}),jsx("a",{href:"https://discord.gg/NStTR5YaPB",target:"_blank",children:jsxs(CategoryIconContainer,{children:[jsx(FontAwesomeIcon,{size:"xl",icon:faDiscord}),jsx(CategoryMenuTooltip,{children:"Discord"})]})}),jsx("a",{href:"https://github.com/the-via/app",target:"_blank",children:jsxs(CategoryIconContainer,{children:[jsx(FontAwesomeIcon,{size:"xl",icon:faGithub}),jsx(CategoryMenuTooltip,{children:"Github"})]})})]}),Container=styled.div`
   width: 100vw;
   height: 25px;
   padding: 12px 0;
