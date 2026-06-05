@@ -1,3 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Project Hub</title>
+  <style>
+    :root {
+      --bg: #121214;
+      --card-bg: #1a1a1e;
+      --text: #e1e1e6;
+      --text-muted: #8d8d99;
+      --accent: #4ade80;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
+    header {
+      margin-bottom: 3rem;
+      border-bottom: 1px solid #29292e;
+      padding-bottom: 1.5rem;
+    }
+    h1 {
+      margin: 0 0 0.5rem 0;
+      font-size: 2.25rem;
+    }
+    p {
+      color: var(--text-muted);
+      margin: 0;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid #29292e;
+      border-radius: 8px;
+      padding: 1.5rem;
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      border-color: var(--accent);
+    }
+    .card h2 {
+      margin: 0 0 0.5rem 0;
+      font-size: 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .card h2::after {
+      content: "→";
+      color: var(--accent);
+      font-size: 1rem;
+    }
+    .card p {
+      font-size: 0.9rem;
+    }
+    .loading, .error {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 3rem;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>talex-tnt projects</h1>
+    <p>A dynamically generated directory of my applications.</p>
+  </header>
+
+  <main class="grid" id="project-grid">
+    <div class="loading" id="status-msg">Fetching directories from GitHub...</div>
+  </main>
+
 <script>
   async function loadProjects() {
     const grid = document.getElementById('project-grid');
@@ -71,3 +158,5 @@
 
   loadProjects();
 </script>
+</body>
+</html>
