@@ -123,7 +123,7 @@
 
       grid.innerHTML = '';
 
-      // Use Promise.all to load all descriptions side-by-side efficiently
+      // Process all directory cards safely side-by-side
       await Promise.all(directories.map(async (dir) => {
         const card = document.createElement('a');
         card.className = 'card';
@@ -134,18 +134,19 @@
           .map(word => word.charAt(0).toUpperCase() + word.slice(1))
           .join(' ');
 
-        // Fallback description if the text file doesn't exist
+        // Fallback default text if description.txt is physically missing or 404s
         let description = `Explore the ${dir.name} application deployment.`;
 
         try {
-          // Try to grab the description text file directly from the subdirectory
-          const descResponse = await fetch(`./${dir.name}/description.txt`);
+          // Construct an explicit absolute URL path to bypass folder resolution limits
+          const descriptionUrl = `${window.location.origin}/${dir.name}/description.txt`;
+          
+          const descResponse = await fetch(descriptionUrl);
           if (descResponse.ok) {
             description = await descResponse.text();
           }
         } catch (e) {
-          // Silently fall back if description file is missing or hits an error
-          console.log(`No description.txt found for ${dir.name}`);
+          console.log(`Fallback triggered for ${dir.name}`);
         }
 
         card.innerHTML = `
